@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"db"
+)
 
 func main() {
 	fmt.Println("Server Started ....")
+	db DBHandler 
+
 }

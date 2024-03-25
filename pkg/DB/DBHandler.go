@@ -7,7 +7,7 @@ import (
 	"gorm.io/gorm"
 )
 
-type DB struct {
+type DBHandler struct {
 	db *gorm.DB
 }
 
